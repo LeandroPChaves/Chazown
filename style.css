@@ -1,59 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
-    text-align: center;
-}
-
-h1{
-    font-size: 100px;
-}
-
-h2{
-    font-size: 50px;
 }
 
 header{
+    position: fixed;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #272727;
+    color: #E3AB5E;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header img{
-    width: 10vw;
+    width: 13vw;
+}
+
+nav a{
+    color: #E3AB5E;
+    padding: 10px;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    color: #272727;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.titulo{
+    padding-top: 200px;
+}
+
+.titulo h1, .titulo h2, .titulo h3{
+    padding-bottom: 15px;
+}
+
+.titulo h2{
+    font-family: 'Caveat', cursive;
 }
 
 body{
-    background-image: linear-gradient(to top, rgb(165, 165, 10),orange, #000000e0);
+    background-image: linear-gradient(to top, #fcbe68, #d19d53, rgb(122, 92, 37));
+}
+
+.padrao{
+    padding: 40px 0;
 }
 
 section img{
-    width: 40vw;
+    width: 30vw;
     text-align: center;
 }
 
-.parallax{
-    width: 100vw;
+.padraoparallax{
+    width: 90%;
     height: 100vh;
-    background-image: url(imagens/capa/fundo2.jpg);
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin: auto;
+}
+
+.parallax{
+    background-image: url(imagens/capa/fundo2.jpg);
 }
 
 .parallax2{
     background-image: url(imagens/capa/img8.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 h3{
     font-size: 30px;
+    text-align: cente200
+}
+
+footer{
     text-align: center;
+    background-color: #272727;
+    color: #E3AB5E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1000px){
+    .titulo{
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 800px){
+    .titulo{
+        padding-top: 120px;
+    }
+
+    header{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 600px){
+    .titulo{
+        padding-top: 90px;
+    }
 }
 
