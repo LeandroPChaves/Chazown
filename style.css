@@ -122,6 +122,7 @@ h3{
 }
 
 footer{
+    margin-top: 20px;
     text-align: center;
     background-color: #272727;
     color: #E3AB5E;
@@ -163,7 +164,7 @@ footer{
     }
 
     h4{
-        font-size: 1em;
+        font-size: 1.3em;
     }
 }
 
