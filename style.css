@@ -162,6 +162,13 @@ header a:hover{
 /* Responsividade --------------------------------------------------------------- */
 
 @media (max-width: 800px){
+    nav > a{
+       font-size: 0.6em;
+    }
+
+    header > img{
+        width: 13vw;
+    }
     .titulo{
         padding-top: 120px;
     }
@@ -208,22 +215,6 @@ header a:hover{
     .titulo{
         padding-top: 90px;
     }
-
-    /* h1{
-        font-size: 3em;
-    }
-
-    h2{
-        font-size: 2em;
-    }
-
-    h3{
-        font-size: 1.5em;
-    }
-
-    h4{
-        font-size: 1.3em;
-    } */
 
     
 }  
