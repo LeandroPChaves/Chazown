@@ -9,6 +9,16 @@
     box-sizing: border-box;
 }
 
+i#burguer{
+    display: none;
+    width: 100vw;
+    background-color: #272727;
+    color: #E3AB5E;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
 header{
     position: fixed;
     display: flex;
@@ -19,6 +29,8 @@ header{
     color: #E3AB5E;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 header img{
     width: 11vw;
@@ -152,6 +164,11 @@ header a:hover{
      transition: 0.8s;
 } 
 
+i#burguer:hover{
+    color: #272727;
+    background-color: #F7C652;
+}
+
 .tipoModa a:hover{
     color: #272727;
     background-color: #F7EE52;
@@ -209,11 +226,27 @@ header a:hover{
     
 
     
+
+    
 }
 
  @media (max-width: 600px){
     .titulo{
         padding-top: 90px;
+    }
+
+    header img{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    i#burguer{
+        display: flex;
+        justify-content: center;
+
     }
 
     
